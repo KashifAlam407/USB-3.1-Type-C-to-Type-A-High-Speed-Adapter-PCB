@@ -1,0 +1,9 @@
+ 
+
+
+
+#define MQTT_HOST           "14273b0d5919486292320d12986e227c.s1.eu.hivemq.cloud  "
+#define MQTT_PORT           8883
+
+#define MQTT_USERNAME   "kashif_ecowell"
+#define MQTT_PASSWORD   "kashif_ecowell"

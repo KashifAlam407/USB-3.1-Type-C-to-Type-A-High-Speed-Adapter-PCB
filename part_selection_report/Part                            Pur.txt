@@ -1,0 +1,31 @@
+Part                            Purpose
+------------------------------------------------------------
+USB_C_Receptacle (J1)           USB Type-C input connector
+
+USB3_A (J2)                     USB 3.0 Type-A output connector
+
+TUSB320 (U3)                    USB Type-C orientation detection
+
+HD3SS6126 (U1)                  USB 3.0 SuperSpeed lane switching
+
+AP2112K-3.3 (U4)                3.3V voltage regulation
+
+TPD4E05U06DQA (U2)             USB 2.0 ESD protection
+
+PRTR5V0U2X (D1,D3,D4,D5)       USB 3.0 SuperSpeed ESD protection
+
+PTVS5V0Z1USK (D2)              VBUS surge/TVS protection
+
+Fuse 1.1A (F1)                 Overcurrent protection
+
+5.1kΩ Resistors (R1,R2)        USB Type-C CC pull-down resistors
+
+900kΩ Resistor (R3)            VBUS detection for TUSB320
+
+100nF Capacitor (C2)           TUSB320 decoupling capacitor
+
+10µF Capacitor (C1)            HD3SS6126 power decoupling
+
+1µF Capacitor (C3)             Regulator input capacitor
+
+10µF Capacitor (C4)            Regulator output capacitor

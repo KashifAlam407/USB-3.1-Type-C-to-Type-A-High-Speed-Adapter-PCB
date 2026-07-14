@@ -1,0 +1,39 @@
+USB-C Receptacle
+        |
+        +--------------------+
+        |                    |
+        v                    v
+
+  TUSB320            ESD Protection
+ (CC Logic)          (USB2 + USB3)
+
+        |
+      SEL
+        |
+        v
+
+   HD3SS6126
+ (USB 3.0 MUX)
+
+        |
+        v
+
+   USB-A Port
+
+
+Power Path
+
+USB-C VBUS
+      |
+      v
+    Fuse
+      |
+      v
+TVS Protection
+      |
+      v
+AP2112K-3.3
+      |
+      +---- TUSB320
+      |
+      +---- HD3SS6126
